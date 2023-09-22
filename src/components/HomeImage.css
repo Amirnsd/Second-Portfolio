@@ -1,0 +1,91 @@
+.homeImage{
+    width: 100%;
+    height: 100%;
+    margin: 4rem 0;
+}
+
+
+.homeImage-container{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    margin-top: 10rem;
+}
+
+.left h1 span{      
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    
+}
+
+
+.left h2{
+    margin-bottom: 30px;
+}
+
+.left p{
+    
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.left button {
+    width: 160px;
+    padding: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    transition: 0.5s;
+    color: white;            
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.left button:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+.right img{
+    width: 100%;
+    background-color: #000;
+    
+}
+
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

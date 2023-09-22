@@ -1,0 +1,185 @@
+.skills-container {
+    margin: 10rem 0;
+  }
+  
+  .box {
+    margin: 8rem 0;
+  }
+
+
+  .box {
+    overflow: hidden;
+  }
+  
+  .box-row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .html-box {
+    text-align: center;
+    border: 1px ;
+    padding: 15px 70px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .html-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  .html-box img {
+    width: 100px;
+  }
+  
+  .Css-box {
+    text-align: center;
+    border: 1px ;
+    padding: 15px 70px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .Css-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  
+  .Css-box img {
+    width: 100px;
+
+  }
+  
+  .JS-box {
+    text-align: center;
+    border: 1px ;
+    padding: 20px 55px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  } 
+
+  .JS-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  .JS-box img {
+    width: 90px;
+
+  }
+  
+  .box-row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .React-box {
+    text-align: center;
+    border: 1px ;
+    padding: 15px 70px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+
+  .React-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  .React-box img {
+    width: 110px;
+  }
+  
+  .Git-box {
+    text-align: center;
+    padding: 15px 70px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  }
+
+
+  .Git-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  .Git-box img {
+    width: 100px;
+  }
+  
+  .C-box {
+    text-align: center;
+    border: 1px ;
+    padding: 15px 70px;
+    background-color: #353935;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+
+  .C-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s;
+    background-color: red;
+  }
+  
+  .C-box img {
+    width: 90px;
+  }
+  
+
+
+
+
+
+  /*media quary */
+
+
+
+  @media screen and (max-width: 600px) {
+    .box {
+      margin: 2rem 0; /* Adjust the margins for smaller phone devices */
+    }
+  
+    .box-row1,
+    .box-row2 {
+      flex-direction: column; /* Stack the items vertically on smaller devices */
+    }
+  
+    .html-box,
+    .Css-box,
+    .JS-box,
+    .React-box,
+    .Git-box,
+    .C-box {
+      padding: 10px; /* Reduce the padding for smaller devices */
+      margin-bottom: 20px; /* Add some space between the boxes */
+    }
+  
+    .html-box img,
+    .Css-box img,
+    .JS-box img,
+    .React-box img,
+    .Git-box img,
+    .C-box img {
+      width: 70px; /* Reduce the image size for smaller devices */
+    }
+  }
